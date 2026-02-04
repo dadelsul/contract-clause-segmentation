@@ -1,0 +1,25 @@
+# environments
+dodo_env/
+__pycache__/
+*.pyc
+
+# large / generated
+models/segmenter/checkpoint-*
+models/segmenter/*.bin
+models/segmenter/*.safetensors
+models/segmenter/training_args.bin
+
+# outputs
+outputs/*.txt
+
+# system
+.vscode/
+.DS_Store
+
+# data (raw and generated)
+data/raw_pdfs/
+data/images/
+data/sample_images/
+
+# zips
+*.zip
